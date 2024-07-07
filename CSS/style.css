@@ -1,0 +1,148 @@
+
+body {
+  background-color: rgba(178, 152, 200, 1);
+}
+
+.navBar{
+  display: flex;
+  background-color: rgba(119, 79, 133, 1);
+  padding: 0px;
+}
+
+.left{
+  width: 50%;
+  justify-content: left;
+  padding-left: 40px;
+}
+
+.right{
+  width: 50%;
+  justify-content: right;
+  padding-right: 40px;
+}
+
+.left, .right{
+  height: 92px;
+  display: flex;
+  align-items: center;
+}
+
+
+h1 {
+  font-family: 'Happy Monkey'; 
+  font-size: 40px;
+  color:rgba(255, 206, 227, 1);
+}
+
+.navIteam{
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-inline: 10px;
+}
+
+button{
+  background-color: rgba(5, 2, 146, 1);
+  border: none;
+  color: white;
+  padding: 5px 30px;
+  font-size: 20px;
+  border-radius: 30px;
+}
+
+#HeroGrid{
+  display: flex;
+  grid-template-rows: 50% 50%;
+  grid-row: 50% 50%;
+
+}
+.aboutMe{
+  float:right;
+  width: 50%;
+  height: 650px;
+  justify-content: center;
+  padding-left: 130px;
+  padding-right: 100px;
+  padding-top: 150px;
+}
+
+.imageAndtext{
+  float: left;
+  width: center;
+  height: 650px;
+  justify-content: center;
+  padding-right: 130px ;
+  padding-top: 150px;
+}
+
+#headline{
+  font-family: 'Happy Monkey'; 
+  font-size: 35px;
+  color: black;
+}
+#bodyText{
+  font-family: sans-serif;
+  line-height: 34px;
+  font-size: 25px;
+  font-weight: 100;
+  
+}
+
+.line1, .line2 {
+  line-height: 1.5px solid black;
+}
+
+#coverPhoto{
+  width: 562px;
+  height: 518px;
+
+}
+.mainPic{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  border-radius: 90px;
+  border: 6px solid rgba(255, 206, 227, 1);
+}
+
+.logo{
+  position: absolute;
+  right: 100px;
+  top: 160px;
+  width: 163px;
+  height: 184px;
+}
+
+#caption{
+  font-family: sans-serif;
+  font-weight: 200;
+  align-items: center;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.footer{
+  padding-top: 100px;
+  text-align: center ;
+  display: block;
+}
+.connect{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 100;
+  line-height: 40px;
+}
+.copyright{
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 100;
+  line-height: 15px;
+  padding-bottom: 10px;
+}
+h6{
+  text-align: center;
+  font-family: 'Happy Monkey'; 
+  font-size: 20px;
+}
